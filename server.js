@@ -9,8 +9,6 @@ db.sequelize.sync({ force: true }).then(() => {
   console.log("Drop and re-sync db.");
 });
 
-app.use();
-
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
 
