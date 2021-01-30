@@ -8,6 +8,9 @@
     "start": "node server.js",
     "start:dev": "nodemon server.js"
   },
+  "engines": {
+    "node": "14.x.x"
+  },
   "keywords": [
     "nodejs",
     "express",
